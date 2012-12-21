@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+<property>
+    <name>hbase.cluster.distributed</name>
+    <value>true</value>
+  </property>
+
+  <property>
+    <name>hbase.rootdir</name>
+    <value>hdfs://master:54310/hbase</value>
+  </property>
+
+  <property>
+    <name>hbase.zookeeper.quorum</name>
+    <value>master</value>
+  </property>
+  
+  
+<property>
+  <name>fs.s3.awsAccessKeyId</name>
+  <value>0DH7C1P063S2Q2FARB02</value>
+</property>
+<property>
+  <name>fs.s3.awsSecretAccessKey</name>
+  <value>fL6lRGA/KDyqwdcSKXn+4bCQcsT8TOuMQ5cSgU4V</value>
+</property>
+<property>
+  <name>fs.s3n.awsAccessKeyId</name>
+  <value>0DH7C1P063S2Q2FARB02</value>
+</property>
+<property>
+  <name>fs.s3n.awsSecretAccessKey</name>
+  <value>fL6lRGA/KDyqwdcSKXn+4bCQcsT8TOuMQ5cSgU4V</value>
+</property>
+  
+
+</configuration>
